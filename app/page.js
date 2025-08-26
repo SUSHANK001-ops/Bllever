@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Navbar } from "./components/ui/Navbar";
+import Herosection from "./components/ui/Herosection";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Navbar />
+      <Herosection />
+    </>
+  );
+};
 
-export default Home
+export default Home;
